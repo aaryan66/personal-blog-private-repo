@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --navfont: 'Lato';
+}
+
+  
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+
+  display: flex;
+  font-family: var(--navfont);
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  
+  
+  }
+
+  span {
+    font-size: 30px;
+    margin: 0 77px;
+    align-items: center;
+    margin-left: -30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--navfont)
+  }
+
+.not-active {
+    text-decoration: none;
+    color: rgb(133, 137, 147);
+    font-size: 22px;
+}
+.active {
+  text-decoration: none;
+  color: brown;
+  font-size: 22px;
+}
+
+.navbar ul  {
+  text-align: left;
+  margin: 0 77px;
+}
+.content {
+  /* background-color: blue; */
+  display: flex;
+  height: 100%;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative; 
+  padding-top: 40px;
+  /* background-image: url("images/intro_img.jpg"); */
+
+  
+}
+
+.content::after {
+  content: "";
+  background-color: rgb(82, 187, 189);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.35;
+  border-radius: 12px;
+  /* margin-top: 5px */
+}
+
+.content-intro {
+  font-family: var(--navfont);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+.content-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-image img {
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+
+
+
+   
+  .footer {
+    height: 50px;
+    background-color: purple;
+  }

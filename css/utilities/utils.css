@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --navfont: 'Lato';
+}
+.max-width-1 {
+    max-width: 80vw;
+}
+   
+.max-width-2 {
+    max-width: 60vw;
+}
+   
+.m-auto {
+    margin: auto;
+}
+
+.m-top {
+    margin-top: 56px;
+}
+   
+.my-2{
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.ml-3{
+    padding-left: 3rem;
+}
+.mr-auto{
+    margin:auto;
+}
+.p-top {
+    padding-top: 13px;
+}
+.nav-font {
+    font-family: var(--navfont);
+}
+
+.nobull {
+    list-style-type: none;
+}
+
+.title-font {
+    font-family: sans-serif;
+}
+
+.align-cen {
+    align-items: center;
+}
+.hover-anm:hover {
+    color: rgb(83, 161, 108);
+}
+
+.nav-img {
+    height: 88px;
+    width: 88px;
+}
+.not-active {
+    text-decoration: none;
+    color: rgb(147, 133, 133);
+    font-size: 22px;
+}
+.active {
+    text-decoration: none;
+    color: rgb(28, 54, 28)
+}
+
