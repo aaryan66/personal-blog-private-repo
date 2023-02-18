@@ -97,4 +97,13 @@
   .footer {
     height: 50px;
     background-color: purple;
+    margin-left: 106px;
+    margin-right: 86px;
+    border-radius:9px;
+    
+  }
+  .footer p {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
   }
